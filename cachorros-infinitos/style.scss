@@ -1,0 +1,29 @@
+@import './variables';
+@import './header';
+@import './slide';
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+select {
+    font-size: 1rem;
+    padding: 6px;
+    color: $fontCor;
+    font-weight: bold;
+}
+h1 {
+    font-size: 3rem;
+    margin: 10px;
+}

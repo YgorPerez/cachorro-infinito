@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: $headerFundo;
+
+    select {
+        font-size: 1rem;
+        padding: 6px;
+        color: $fontCor;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 10px;
+        color: $h1Font;
+    }
+}
