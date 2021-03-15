@@ -1,13 +1,15 @@
 .header {
     text-align: center;
     padding: 20px 0;
-    background-color: $headerFundo;
+    background-color: $fundo2;
 
     select {
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding: 6px;
         color: $fontCor;
         font-weight: bold;
+        background-color: $selectFundo;
+        box-shadow: 10px 10px $selectBox;
     }
 
     h1 {

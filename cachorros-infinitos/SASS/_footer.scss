@@ -1,0 +1,38 @@
+footer {
+    height: 14vh;
+    padding: 0 45px;
+    background-color: $corFundo;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    p {
+        font-weight: bold;
+        color: $footer;
+        font-size: .9rem;
+    }
+
+    a {
+        transition: 0.3s ease-out;
+        display: block;
+        &:hover {
+            transform: rotate(6deg);
+        }
+    }
+}
+
+.github {
+    height: 50px;
+    width: 50px;
+}
+
+.linkeding {
+    height: 50px;
+    width: 50px;
+}
