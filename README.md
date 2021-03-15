@@ -13,7 +13,7 @@
 ---
 ## Onde me encontrar:
 <br>
-<a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><img src="Imagens/linkeding-png.png" alt="Meu linkeding" width = 25px height = 25px> <strong>Meu Linkeding</strong></a>
+<a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><img src="cachorros-infinitos/Imagens/linkeding-png.png" width = 25px height = 25px> <strong>Meu Linkeding</strong></a>
 
 
 Meu email: perezygor@gmail.com
