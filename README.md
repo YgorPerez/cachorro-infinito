@@ -1,19 +1,21 @@
-# [**Cachorros Infinitos**](https://ygorperez.github.io/cachorros-infinitos/) 🐕
+# [**Cachorros Infinitos** 🐕](https://ygorperez.github.io/cachorros-infinitos/) 
  <font size="5">Mostra uma imagem de um cachorro com base na raça que você escolheu</font> 
 
 
 ---
 ## Recursos ultilizados:
-* HTML5  <img src="cachorros-infinitos/Imagens/html.png" width = 25px height = 25px>
-* TypeScript <img src="cachorros-infinitos/Imagens/typescript.png" width = 25px height = 25px>
-* JavaScript ES11 <img src="cachorros-infinitos/Imagens/javascript.png" width = 25px height = 25px>
-* SASS5 <img src="cachorros-infinitos/Imagens/sass.png" width = 25px height = 25px>
-* CSS3 <img src="cachorros-infinitos/Imagens/css.png" width = 25px height = 25px>
-* GitHub Desktop <img src="cachorros-infinitos/Imagens/github-mark.png" width = 25px height = 25px>
-* JSON <img src="cachorros-infinitos/Imagens/json.png" width = 25px height = 25px>
-* [API do GitHub](https://dog.ceo/dog-api/)<a href="https://dog.ceo/dog-api/"><img src="cachorros-infinitos/Imagens/api.png" width = 25px height = 25px></a>
+* HTML5  ![](cachorros-infinitos/Imagens/html.png)
+* TypeScript ![](cachorros-infinitos/Imagens/typescript.png)
+* JavaScript ES11 ![](cachorros-infinitos/Imagens/javascript.png)
+* SASS5 ![](cachorros-infinitos/Imagens/sass.png)
+* CSS3 ![](cachorros-infinitos/Imagens/css.png)
+* GitHub Desktop ![](cachorros-infinitos/Imagens/github-mark_.png)
+* JSON ![](cachorros-infinitos/Imagens/json.png)
+* [API do GitHub ![](cachorros-infinitos/Imagens/api.png)](https://dog.ceo/dog-api/)
 ---
 ## Onde me encontrar:
-* <a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><strong>Meu Linkedin</strong></a> <a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><img src="cachorros-infinitos/Imagens/linkedin-icon.png" width = 35px height = 35px></a>
-* perezygor@gmail.com <img src="cachorros-infinitos/Imagens/gmail.png" width = 25px height = 25px>
+* [Meu Linkedin ![](cachorros-infinitos/Imagens/linkedin-icon.png)](https://www.linkedin.com/in/ygor-perez-de-oliveira/)
+* perezygor@gmail.com ![](cachorros-infinitos/Imagens/gmail.png)
+***
+<font size="5">Obrigado por visitar meu projeto!</font> ![](cachorros-infinitos/Imagens/waving_hand.gif)
 ***

@@ -1,6 +1,6 @@
 .header {
   text-align: center;
-  background-image: linear-gradient(300deg, #F2E9DC, #c9c0b5);
+  background-image: linear-gradient(-45deg, #F2E9DC, #c9c0b5);
 }
 
 .header select {
@@ -32,7 +32,7 @@
   background-color: #616060;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(300deg, #616060, #292828);
+  background-image: linear-gradient(-45deg, #616060, #292828);
 }
 
 .slide {
@@ -73,7 +73,7 @@ footer {
   height: minmax(9vh, 11vh);
   padding: 0 7vh;
   background-color: #616060;
-  background-image: linear-gradient(300deg, #616060, #292828);
+  background-image: linear-gradient(-45deg, #616060, #292828);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
