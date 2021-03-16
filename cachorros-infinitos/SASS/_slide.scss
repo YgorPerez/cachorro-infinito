@@ -3,6 +3,7 @@
     background-color: $corFundo;
     position: relative;
     overflow: hidden;
+    background-image: linear-gradient(300deg, $corFundo, $fundoDegrade);
 }
 
 .slide {
@@ -15,6 +16,7 @@
     background-size: contain;
     background-position: center center;
     opacity: 0;
+    border-radius: 1vh;
     transform: scale(1);
     transition: all .75s ease-out;
     -webkit-transform: scale(1);
@@ -25,9 +27,14 @@
     -moz-transition: all .75s ease-out;
     -ms-transition: all .75s ease-out;
     -o-transition: all .75s ease-out;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
 }
 
 .slide:nth-last-child(2) {
+    border-radius: 1vh;
     opacity: 1;
     transform: scale(1.08);
 }

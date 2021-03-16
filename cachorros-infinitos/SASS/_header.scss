@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    background-color: $fundo2;
+    background-image: linear-gradient(300deg, $fundo2, $fundoDegrade2);
 
     select {
         height: 8vh;
@@ -14,10 +14,12 @@
         outline: none;
         background-color: $selectFundo;
         box-shadow: 1vh 1vh $selectBox;
+        text-shadow: .8vh .8vh 1.6vh $fontSombra2;
 }
 
     h1 {
         font-size: 5vh;
         color: $h1Font;
+        text-shadow: .8vh .8vh 1.6vh $fontSombra;
     }
 }

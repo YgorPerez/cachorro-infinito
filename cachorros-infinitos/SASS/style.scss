@@ -1,17 +1,19 @@
+@charset "UTF-8";
 @import './variables';
 @import './header';
 @import './slide';
 @import './footer';
 
 html, body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;;
     font-size: 2vh;
+    overflow: hidden;
 }
 
 .app {

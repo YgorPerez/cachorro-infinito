@@ -1,16 +1,19 @@
 footer {
     height: minmax(9vh,11vh);
     padding: 0 7vh;
+    @media only screen and (max-width: 600px) {
+        padding: 0 3vh;
+    }
     background-color: $corFundo;
+    background-image: linear-gradient(300deg, $corFundo, $fundoDegrade);
     display: flex;
     justify-content: space-between;
-    justify-self: flex-end;
     align-items: center;
 
     li {
         list-style: none;
         display: inline-block;
-        margin-left: 2vh;
+        margin-left: 1vh;
     }
 
     p {
@@ -29,18 +32,11 @@ footer {
 }
 
 .github {
-    display: block;
     height: 6vh;
     width: 6vh;
-    border-radius: 1vh;
-    -webkit-border-radius: 1vh;
-    -moz-border-radius: 1vh;
-    -ms-border-radius: 1vh;
-    -o-border-radius: 1vh;
 }
 
-.linkeding {
+.linkedin {
     height: 7vh;
     width: 7vh;
-    display: block;
 }
