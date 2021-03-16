@@ -14,6 +14,6 @@
 * [API do GitHub](https://dog.ceo/dog-api/)<a href="https://dog.ceo/dog-api/"><img src="cachorros-infinitos/Imagens/api.png" width = 25px height = 25px></a>
 ---
 ## Onde me encontrar:
-* <a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><strong>Meu Linkeding</strong></a> <a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><img src="cachorros-infinitos/Imagens/linkedin-icon.png" width = 35px height = 35px></a>
+* <a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><strong>Meu Linkedin</strong></a> <a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/"><img src="cachorros-infinitos/Imagens/linkedin-icon.png" width = 35px height = 35px></a>
 * perezygor@gmail.com <img src="cachorros-infinitos/Imagens/gmail.png" width = 25px height = 25px>
 ***
