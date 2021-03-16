@@ -1,20 +1,23 @@
 .header {
     text-align: center;
-    padding: 20px 0;
     background-color: $fundo2;
 
     select {
-        font-size: 1.1rem;
-        padding: 6px;
+        height: 8vh;
+        width: 29vh;
+        margin-bottom: 3.5vh;
+        font-size: 2.5vh;
+        padding: .5vh;
         color: $fontCor;
         font-weight: bold;
+        border-radius: 1vh;
+        outline: none;
         background-color: $selectFundo;
-        box-shadow: 10px 10px $selectBox;
-    }
+        box-shadow: 1vh 1vh $selectBox;
+}
 
     h1 {
-        font-size: 3rem;
-        margin: 10px;
+        font-size: 5vh;
         color: $h1Font;
     }
 }

@@ -1,21 +1,22 @@
 footer {
-    height: 14vh;
-    padding: 0 45px;
+    height: minmax(9vh,11vh);
+    padding: 0 7vh;
     background-color: $corFundo;
     display: flex;
     justify-content: space-between;
+    justify-self: flex-end;
     align-items: center;
 
     li {
         list-style: none;
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 2vh;
     }
 
     p {
         font-weight: bold;
         color: $footer;
-        font-size: .9rem;
+        font-size: 1.9vh;
     }
 
     a {
@@ -28,11 +29,18 @@ footer {
 }
 
 .github {
-    height: 50px;
-    width: 50px;
+    display: block;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 1vh;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
 }
 
 .linkeding {
-    height: 50px;
-    width: 50px;
+    height: 7vh;
+    width: 7vh;
+    display: block;
 }

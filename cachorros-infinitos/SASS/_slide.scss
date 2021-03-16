@@ -7,7 +7,7 @@
 
 .slide {
     position: absolute;
-    top: 0;
+    top: 4vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -16,7 +16,15 @@
     background-position: center center;
     opacity: 0;
     transform: scale(1);
-    transition: all .9s ease-out;
+    transition: all .75s ease-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all .75s ease-out;
+    -moz-transition: all .75s ease-out;
+    -ms-transition: all .75s ease-out;
+    -o-transition: all .75s ease-out;
 }
 
 .slide:nth-last-child(2) {

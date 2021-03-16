@@ -14,7 +14,7 @@ iniciar();
 function criarListaRaca(listaRaca) {
     document.getElementById("raca").innerHTML = `
     <select onchange="carreguePorRaca(this.value)">
-        <option>Escolha uma raça de cachorro</option>
+        <option>Escolha uma raça</option>
         ${Object.keys(listaRaca).map(function (raca) {
         return `<option>${raca}</option>`;
     }).join('')}
@@ -22,10 +22,14 @@ function criarListaRaca(listaRaca) {
     `;
 }
 async function carreguePorRaca(raca) {
-    if (raca != "Escolha uma raça de cachorro") {
+    if (raca != "Escolha uma raça") {
         const response = await fetch(`https://dog.ceo/api/breed/${raca}/images`);
         const data = await response.json();
         createSlideShow(data.message);
+    }
+    else {
+        let data = "";
+        createSlideShow(data);
     }
 }
 function createSlideShow(imagens) {
