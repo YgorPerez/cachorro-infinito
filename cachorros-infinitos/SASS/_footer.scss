@@ -1,9 +1,10 @@
 footer {
-    height: minmax(9vh,11vh);
+    height: 9vh;
     padding: 0 7vh;
     @media only screen and (max-width: 600px) {
         padding: 0 3vh;
     }
+
     background-color: $corFundo;
     background-image: linear-gradient(-45deg, $corFundo, $fundoDegrade);
     display: flex;
@@ -34,9 +35,17 @@ footer {
 .github {
     height: 6vh;
     width: 6vh;
+    @media only screen and (max-width: 300px) {
+        height: 4.5vh;
+        width: 4.5vh;
+    }
 }
 
 .linkedin {
     height: 7vh;
     width: 7vh;
+    @media only screen and (max-width: 300px) {
+        height: 5vh;
+        width: 5vh;
+    }
 }

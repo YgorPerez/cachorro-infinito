@@ -7,13 +7,18 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 body {
+    position: relative;
+    background-color: $corFundo;
     margin: 0;
     font-family: 'Montserrat', sans-serif;;
     font-size: 2vh;
-    overflow: hidden;
+    @media (max-width: 150px) {
+        font-size: 1vh;
+    }
 }
 
 .app {
