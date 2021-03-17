@@ -1,4 +1,4 @@
-# [**Cachorros Infinitos** 🐕](https://ygorperez.github.io/cachorros-infinitos/) 
+# [**Cachorro Infinito** 🐕](https://ygorperez.github.io/cachorros-infinitos/) 
  <font size="5">Mostra uma imagem de um cachorro com base na raça que você escolheu</font> 
 
 
