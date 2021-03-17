@@ -3,7 +3,7 @@
 
 
 ---
-## Recursos ultilizados:
+## Tecnologias:
 * HTML5  ![](cachorros-infinitos/Imagens/html.png)
 * TypeScript ![](cachorros-infinitos/Imagens/typescript.png)
 * JavaScript ES11 ![](cachorros-infinitos/Imagens/javascript.png)
