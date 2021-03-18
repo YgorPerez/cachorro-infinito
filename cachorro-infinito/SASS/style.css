@@ -14,8 +14,8 @@
   border-radius: 1vh;
   outline: none;
   background-color: #f1dfdf;
-  -webkit-box-shadow: 1vh 1vh rgba(179, 162, 162, 0.205);
-          box-shadow: 1vh 1vh rgba(179, 162, 162, 0.205);
+  -webkit-box-shadow: 1vh 1vh rgba(179, 162, 162, 0.212);
+          box-shadow: 1vh 1vh rgba(179, 162, 162, 0.212);
   text-shadow: 0.8vh 0.8vh 1.6vh rgba(179, 162, 162, 0.555);
 }
 
