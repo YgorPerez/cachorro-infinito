@@ -8,7 +8,8 @@
     <!-- Meta Tags Primarias-->
     <title>Cachorro Infinito</title>
     <meta name="title" content="Cachorro Infinito">
-    <meta name="description" content="Mostra uma imagem de um cachorro com base na raça que você escolheu.">
+    <meta name="description" content="Mostra imagens de cachorro com base na raça que você escolheu, veja todas as raças de cachorro.">
+    <meta name="keywords" content="cachorros, fotos de raças, fotos de cachorros, raças de cachorros">
     <meta name="author" content="Ygor Perez de Oliveira">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -29,19 +30,19 @@
     <script src="cachorro-infinito/JavaScript/javascript.js" defer></script>
 </head>
 <body>
-    <div class="app">
-        <div class="header">
+    <main>
+        <header>
             <h1>Cachorro Infinito 🐕</h1>
-            <div id="raca"></div>
-        </div>
-        <div class="slideshow" id="slideshow"></div>
+            <select onchange="carreguePorRaca(this.value)" id="raca"></select>
+        </header>
+        <picture class="slideshow" id="slideshow"></picture>
         <footer>
             <p>&copy; 2021 Ygor Perez</p>
             <ul>
-                <li><a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/" target="_blank"><img src="cachorro-infinito/Imagens/linkedin-icon.png" alt="icone do linkeding" class="linkedin"></a></li>
-                <li><a href="https://github.com/YgorPerez" target="_blank"><img src="cachorro-infinito/Imagens/github-mark.png" alt="icone do github" class="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/ygor-perez-de-oliveira/" alt="Meu Linkedin" target="_blank"><img src="cachorro-infinito/Imagens/linkedin-icon.png" alt="icone do linkeding" class="linkedin"></a>
+                <li><a href="https://github.com/YgorPerez" alt="Meu Github" target="_blank"><img src="cachorro-infinito/Imagens/github-mark.png" alt="icone do github" class="github"></a>
             </ul>
         </footer>
-    </div>
+    </main>
 </body>
 </html>

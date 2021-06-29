@@ -13,12 +13,10 @@ async function iniciar() {
 iniciar();
 function criarListaRaca(listaRaca) {
     document.getElementById("raca").innerHTML = `
-    <select onchange="carreguePorRaca(this.value)">
         <option>Escolha uma raça</option>
         ${Object.keys(listaRaca).map(function (raca) {
         return `<option>${raca}</option>`;
     }).join('')}
-    </select>
     `;
 }
 async function carreguePorRaca(raca) {
@@ -38,8 +36,8 @@ function criarSlideShow(imagens) {
     clearTimeout(deletePrimeiraFotoDelay);
     if (imagens.length > 1) {
         document.getElementById("slideshow").innerHTML = `
-    <div class="slide" style="background-image: url('${imagens[0]}')"></div>
-    <div class="slide" style="background-image: url('${imagens[1]}')"></div>
+    <picture class="slide" style="background-image: url('${imagens[0]}')"></picture>
+    <picture class="slide" style="background-image: url('${imagens[1]}')"></picture>
     `;
         posicaoAtual += 2;
         if (imagens.length == 2)
@@ -48,12 +46,12 @@ function criarSlideShow(imagens) {
     }
     else {
         document.getElementById("slideshow").innerHTML = `
-    <div class="slide" style="background-image: url('${imagens[0]}')"></div>
-    <div class="slide"></div>
+    <picture class="slide" style="background-image: url('${imagens[0]}')"></picture>
+    <picture class="slide"></picture>
     `;
     }
     function proximoSlide() {
-        document.getElementById("slideshow").insertAdjacentHTML("beforeend", `<div class="slide" style="background-image: url('${imagens[posicaoAtual]}')"></div>`);
+        document.getElementById("slideshow").insertAdjacentHTML("beforeend", `<picture class="slide" style="background-image: url('${imagens[posicaoAtual]}')"></picture>`);
         deletePrimeiraFotoDelay = setTimeout(function () {
             document.querySelector(".slide").remove();
         }, 1000);
