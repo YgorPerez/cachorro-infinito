@@ -25,14 +25,14 @@ async function carreguePorRaca(raca) {
     if (raca != "Escolha uma raça") {
         const response = await fetch(`https://dog.ceo/api/breed/${raca}/images`);
         const data = await response.json();
-        createSlideShow(data.message);
+        criarSlideShow(data.message);
     }
     else {
         let data = "";
-        createSlideShow(data);
+        criarSlideShow(data);
     }
 }
-function createSlideShow(imagens) {
+function criarSlideShow(imagens) {
     let posicaoAtual = 0;
     clearInterval(timer);
     clearTimeout(deletePrimeiraFotoDelay);
