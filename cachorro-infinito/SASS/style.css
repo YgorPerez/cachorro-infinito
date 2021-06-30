@@ -110,13 +110,13 @@ footer p {
   font-size: 1.9vh;
 }
 
-footer area {
+footer a {
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
   display: block;
 }
 
-footer area:hover {
+footer a:hover {
   -webkit-transform: rotate(6deg);
           transform: rotate(6deg);
 }
