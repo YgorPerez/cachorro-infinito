@@ -1,0 +1,8 @@
+version: '3'
+
+service:
+    cachorro-infinito;
+        image: cachorro-infinito
+        volumes: ./cachorro-infinito:/usr/share/cachorro-infinito
+        ports: 
+            - 3000:80
