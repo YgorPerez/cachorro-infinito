@@ -16,7 +16,7 @@
 			content="PC-WtREj8Mc8oFaAywmyi9AMXn3UhWpSIWFvDsrSNIs"
 		/>
 		<!-- Google Analytics -->
-		<script src="google/analytics.js"></script>
+		<script src="google/analytics.js" ></script>
 		<!-- End Google Analytics -->
 		<!-- Meta Tags Primarias-->
 		<title>Cachorro Infinito</title>
@@ -29,7 +29,10 @@
 			name="keywords"
 			content="cachorros, fotos de raças, fotos de cachorros, raças de cachorros"
 		/>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="robots" content="index, follow">
 		<meta name="author" content="Ygor Perez de Oliveira" />
+
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
 		<meta
@@ -43,19 +46,19 @@
 		/>
 		<meta
 			property="og:image"
-			content="https://ygorperez.github.io/cachorro-infinito/cachorro-infinito/assets/meta.png"
+			content="https://ygorperez.github.io/cachorro-infinito/src/assets/meta.png"
 			height="628px"
 			width="1200"
 		/>
 		<meta
 			property="og:image"
 			itemprop="image"
-			content="https://ygorperez.github.io/cachorro-infinito/cachorro-infinito/assets/meta_3.png"
+			content="https://ygorperez.github.io/cachorro-infinito/src/assets/meta_3.png"
 		/>
 		<!-- Twitter -->
 		<meta
 			property="twitter:card"
-			content="https://ygorperez.github.io/cachorro-infinito/cachorro-infinito/assets/meta.png"
+			content="https://ygorperez.github.io/cachorro-infinito/src/assets/meta.png"
 		/>
 		<meta
 			property="twitter:url"
@@ -68,7 +71,7 @@
 		/>
 		<meta
 			property="twitter:image"
-			content="https://ygorperez.github.io/cachorro-infinito/cachorro-infinito/assets/meta.png"
+			content="https://ygorperez.github.io/cachorro-infinito/src/assets/meta.png"
 			height="628px"
 			width="1200"
 		/>
@@ -80,7 +83,7 @@
 			type="image/x-icon"
 		/>
 		<link rel="stylesheet" href="src/sass/style.css" />
-		<script src="src/javascript/javascript.js" defer></script>
+		<script src="src/index.js" defer></script>
 	</head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
@@ -99,6 +102,10 @@
 				<select
 					onchange="carreguePorRaca(this.value)"
 					id="raca"
+					aria-label="Selecione uma raça de cachorro"
+					tabindex="0"
+					aria-expanded="false"
+					aria-placeholder="akita"
 				></select>
 			</header>
 			<picture class="slideshow" id="slideshow"></picture>
@@ -109,10 +116,10 @@
 						<a
 							href="https://www.linkedin.com/in/ygor-perez/"
 							alt="Meu Linkedin"
-							target="_blank"
+							rel="noopener noreferrer"
 							><img
 								src="src/assets/linkedin-icon.png"
-								alt="icone do linkeding"
+								alt="See my LinkedIn"
 								class="linkedin"
 						/></a>
 					</li>
@@ -120,10 +127,10 @@
 						<a
 							href="https://github.com/YgorPerez"
 							alt="Meu Github"
-							target="_blank"
+							rel="noopener noreferrer"
 							><img
 								src="src/assets/github-mark.png"
-								alt="icone do github"
+								alt="See my GitHub"
 								class="github"
 						/></a>
 					</li>

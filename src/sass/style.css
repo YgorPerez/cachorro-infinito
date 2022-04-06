@@ -1,31 +1,30 @@
 header {
   text-align: center;
-  background-image: linear-gradient(-45deg, #F2E9DC, #c9c0b5);
+  background-image: linear-gradient(-45deg, #f2e9dc, #c9c0b5);
 }
-
 header select {
   height: 8vh;
   width: 29vh;
   margin-bottom: 3.5vh;
   font-size: 2.5vh;
-  padding: .5vh;
+  padding: 0.5vh;
   color: #000;
   font-weight: bold;
   border-radius: 1vh;
   outline: none;
-  background-color: #f1dfdf;
-  -webkit-box-shadow: 1vh 1vh rgba(179, 162, 162, 0.212);
-          box-shadow: 1vh 1vh rgba(179, 162, 162, 0.212);
+  background-color: rgb(241, 223, 223);
+  box-shadow: 1vh 1vh rgba(179, 162, 162, 0.212);
   text-shadow: 0.8vh 0.8vh 1.6vh rgba(179, 162, 162, 0.555);
 }
-
 @media only screen and (max-width: 300px) {
   header select {
     width: 22vh;
     height: 6vh;
   }
 }
-
+header select:focus-visible {
+  outline: 5px solid rgb(255, 255, 255);
+}
 header h1 {
   font-size: 5vh;
   color: #000;
@@ -33,9 +32,7 @@ header h1 {
 }
 
 .slideshow {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   background-color: #616060;
   position: relative;
   overflow: hidden;
@@ -54,15 +51,15 @@ header h1 {
   opacity: 0;
   border-radius: 1vh;
   transform: scale(1);
-  transition: all .75s ease-out;
+  transition: all 0.75s ease-out;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
-  -webkit-transition: all .75s ease-out;
-  -moz-transition: all .75s ease-out;
-  -ms-transition: all .75s ease-out;
-  -o-transition: all .75s ease-out;
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  -ms-transition: all 0.75s ease-out;
+  -o-transition: all 0.75s ease-out;
   -webkit-border-radius: 1vh;
   -moz-border-radius: 1vh;
   -ms-border-radius: 1vh;
@@ -72,8 +69,7 @@ header h1 {
 .slide:nth-last-child(2) {
   border-radius: 1vh;
   opacity: 1;
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 footer {
@@ -81,51 +77,37 @@ footer {
   padding: 0 7vh;
   background-color: #616060;
   background-image: linear-gradient(-45deg, #616060, #3d3c3c);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 @media only screen and (max-width: 600px) {
   footer {
     padding: 0 3vh;
   }
 }
-
 footer li {
   list-style: none;
   display: inline-block;
   margin-left: 1vh;
 }
-
 footer p {
   font-weight: bold;
-  color: #a1a1a1;
+  color: rgb(161, 161, 161);
   font-size: 1.9vh;
 }
-
 footer a {
-  -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
   display: block;
 }
-
 footer a:hover {
-  -webkit-transform: rotate(6deg);
-          transform: rotate(6deg);
+  transform: rotate(6deg);
 }
 
 .github {
   height: 6vh;
   width: 6vh;
 }
-
 @media only screen and (max-width: 300px) {
   .github {
     height: 4.5vh;
@@ -137,7 +119,6 @@ footer a:hover {
   height: 7vh;
   width: 7vh;
 }
-
 @media only screen and (max-width: 300px) {
   .linkedin {
     height: 5vh;
@@ -153,11 +134,10 @@ html, body {
 body {
   background-color: #616060;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2vh;
   overflow: hidden;
 }
-
 @media (max-width: 150px) {
   body {
     font-size: 1vh;
@@ -167,12 +147,6 @@ body {
 main {
   height: 100vh;
   width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-/*# sourceMappingURL=style.css.map */
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
